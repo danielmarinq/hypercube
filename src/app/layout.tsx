@@ -15,6 +15,27 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Hypercube Capital",
   description: "Hypercube Capital",
+  openGraph: {
+    title: "Hypercube Capital",
+    description: "Hypercube Capital",
+    type: "website",
+    locale: "en_US",
+    url: "https://hypercube.capital",
+    images: [
+      {
+        url: "https://hypercube.capital/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Hypercube Capital",
+      },
+    ],
+  },
+  twitter: {
+    // creator: "@hypercube_cap",
+    // site: "@hypercube_cap",
+    card: "summary_large_image",
+    images: "https://hypercube.capital/og-image.png",
+  },
 };
 
 export default function RootLayout({
