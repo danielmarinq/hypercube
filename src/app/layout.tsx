@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: "https://hypercube.capital",
     images: [
       {
-        url: "https://hypercube.capital/og-image.png",
+        url: "https://hypercube.vc/og-image.png",
         width: 1200,
         height: 630,
         alt: "Hypercube Capital",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     // creator: "@hypercube_cap",
     // site: "@hypercube_cap",
     card: "summary_large_image",
-    images: "https://hypercube.capital/og-image.png",
+    images: "https://hypercube.vc/og-image.png",
   },
 };
 
